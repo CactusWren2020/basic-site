@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8">
+    <head>
+        <title>Site from Scratch</title>
+        <link rel="stylesheet" type="text/css" href="./index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav id="top">
+            <!-- <img class="logo" src="./logo.png"> -->
+            <h3><a href="#">SiteLogo</a></h3>
+            <ul>
+                <li>
+                    <a href="#top">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <header>
+            <h1>Welcome to the Site</h1>
+            <button><a href="#contact"> Get Cracking!</a></button>
+        </header>
+        <section id="about">
+            <div class="box">
+                <h3>Hardware</h3>
+                <img src="one.jpg"/>
+                <p>
+                    Here is some stuff about the services we offer. Cool?
+                </p>
+            </div>
+            <div class="box">
+                <h3>As</h3>
+                <img src="two.jpg"/>
+                <p>
+                    Here is some stuff about the services we offer. Cool?
+                </p>
+            </div>
+            <div class="box">
+                <h3>A Service</h3>
+                <img src="three.jpg"/>
+                <p>
+                    Here is some stuff about the services we offer. Cool?
+                </p>
+            </div>
+        </section>
+        <section id="form">
+            <form id="contact">
+                <h2>Contact</h2>
+                <div class="form-container">
+                <fieldset>
+                    <legend>Name and Contact Information</legend>
+                        <div>
+                            <label for="firstName">First Name</label><br/>
+                            <input name="firstName" type="text">
+                        </div>
+                        <div>
+                            <label for="lastName">Last Name</label><br/>
+                            <input name="lastName" type="text">
+                        </div>
+                        <div>
+                            <label for="address">Address</label><br/>
+                            <input name="address" type="text">
+                        </div>
+                        <div>
+                            <label for="email">Email</label><br/>
+                            <input name="email" type="email">
+                        </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Areas of Interest</legend>
+                    <div>
+                        <input type="checkbox" name="newsletter">
+                        <label for="newsletter">Weekly Newsletter</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="text">
+                        <label for="text">Daily Text</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="visit">
+                        <label for="visit">Personal visit</label>
+                    </div>
+                </fieldset>
+            </div>
+                <input type="submit" value="submit"/>
+            </form>
+        </section>
+        <footer>
+            <p>Copyright Mike Cho Dev</p>
+        </footer>
+        <script src="./scripts.js">
+        </script>
+    </body>
+    
+
+</html>
